@@ -2,18 +2,7 @@
 
 monoprosito
 /
-holbertonschool-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
- master 
-holbertonschool-higher_level_programming/0x06-python-classes/README.md
-@monoprosito
+holbertonschool-
 monoprosito Update README.md of 'Classes and Objects' project
  1 contributor
 402 lines (318 sloc)  12.2 KB
@@ -44,19 +33,16 @@ Write an empty class Square that defines a square:
 
 You are not allowed to import any module
 Solution: 0-square.py
-
-$ amonkeyprogrammer@ubuntu:~/0x06$ cat 0-main.py
-#!/usr/bin/python3
 Square = __import__('0-square').Square
 
 my_square = Square()
 print(type(my_square))
 print(my_square.__dict__)
 
-$ amonkeyprogrammer@ubuntu:~/0x06$ ./0-main.py
+./0-main.py
 <class '0-square.Square'>
 {}
-$ amonkeyprogrammer@ubuntu:~/0x06$
+
 Square with size
 Write a class Square that defines a square by: (based on 0-square.py)
 
@@ -65,7 +51,6 @@ Instantiation with size (no type/value verification)
 You are not allowed to import any module
 Solution: 1-square.py
 
-$ amonkeyprogrammer@ubuntu:~/0x06$ cat 1-main.py
 #!/usr/bin/python3
 Square = __import__('1-square').Square
 
@@ -83,12 +68,11 @@ try:
 except Exception as e:
     print(e)
 
-$ amonkeyprogrammer@ubuntu:~/0x06$ ./1-main.py
 <class '1-square.Square'>
 {'_Square__size': 3}
 'Square' object has no attribute 'size'
 'Square' object has no attribute '__size'
-$ amonkeyprogrammer@ubuntu:~/0x06$
+
 Size validation
 Write a class Square that defines a square by: (based on 1-square.py)
 
@@ -99,7 +83,6 @@ if size is less than 0, raise a ValueError exception with the message size must 
 You are not allowed to import any module
 Solution: 2-square.py
 
-$ amonkeyprogrammer@ubuntu:~/0x06$ cat 2-main.py
 #!/usr/bin/python3
 Square = __import__('2-square').Square
 
@@ -135,7 +118,6 @@ try:
 except Exception as e:
     print(e)
 
-$ amonkeyprogrammer@ubuntu:~/0x06$ ./2-main.py
 <class '2-square.Square'>
 {'_Square__size': 3}
 <class '2-square.Square'>
@@ -144,7 +126,7 @@ $ amonkeyprogrammer@ubuntu:~/0x06$ ./2-main.py
 'Square' object has no attribute '__size'
 size must be an integer
 size must be >= 0
-$ amonkeyprogrammer@ubuntu:~/0x06$
+
 Area of a square
 Write a class Square that defines a square by: (based on 2-square.py)
 
@@ -194,9 +176,6 @@ Instantiation with optional size: def __init__(self, size=0):
 Public instance method: def area(self): that returns the current square area
 You are not allowed to import any module
 Solution: 4-square.py
-
-$ amonkeyprogrammer@ubuntu:~/0x06$ cat 4-main.py
-#!/usr/bin/python3
 Square = __import__('4-square').Square
 
 my_square = Square(89)
