@@ -1,12 +1,4 @@
 
-
-monoprosito
-/
-holbertonschool-
-monoprosito Update README.md of 'Classes and Objects' project
- 1 contributor
-402 lines (318 sloc)  12.2 KB
-Classes and Objects
 Learning Objectives
 What is OOP
 “first-class everything”
